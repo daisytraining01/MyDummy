@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 91.645 s <<< FAILURE! - in TestSuite
+setUp(appium.BankTrial)  Time elapsed: 32.098 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: Appium grid session was cancelled: CLOUD-SID:2020-05-15_13-32-15-229d7d28-9758-489a-9dce-560a0c597525session not created (An unknown server-side error occurred. status='false'. Failed to complete internal method: 'launch args: [com.experitest.ExperiBank/.LoginActivity, false, true]', details: Failed to launch activity / URL. Launch failed, please verify that the application is installed on the device (reportUrl=https://demo.experitest.com/reporter/#/test/39/project/Maveric Sys./))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23.90 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDLT222', ip: '192.168.43.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: AndroidDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDLT222', ip: '192.168.43.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: AndroidDriver
+	at appium.BankTrial.setUp(BankTrial.java:61)
+Caused by: java.lang.reflect.InvocationTargetException
+	at appium.BankTrial.setUp(BankTrial.java:61)
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Appium grid session was cancelled: CLOUD-SID:2020-05-15_13-32-15-229d7d28-9758-489a-9dce-560a0c597525session not created (An unknown server-side error occurred. status='false'. Failed to complete internal method: 'launch args: [com.experitest.ExperiBank/.LoginActivity, false, true]', details: Failed to launch activity / URL. Launch failed, please verify that the application is installed on the device (reportUrl=https://demo.experitest.com/reporter/#/test/39/project/Maveric Sys./))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23.90 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MDLT222', ip: '192.168.43.163', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: driver.version: AndroidDriver
+	at appium.BankTrial.setUp(BankTrial.java:61)
+

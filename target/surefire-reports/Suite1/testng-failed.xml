@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <test thread-count="5" verbose="0" name="Test1(failed)">
+    <parameter name="accesskey" value="eyJ4cC51Ijo0NTU2OTcsInhwLnAiOjQ1NTY4OSwieHAubSI6Ik1UVTRPVE0yTnprMU1EQXlNdyIsImFsZyI6IkhTMjU2In0.eyJleHAiOjE5MDQ3Mjc5NTAsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.9PEKvslTXNVQjibm_oLIBni8iknsIwo1etQfjBMQ8ME"/>
+    <parameter name="devicequery" value="@os=&#039;android&#039; and @category=&#039;PHONE&#039;"/>
+    <parameter name="testname" value="parkavi1"/>
+    <classes>
+      <class name="appium.BankTrial">
+        <methods>
+          <include name="afterSuiteMethod"/>
+          <include name="beforeSuiteMethod"/>
+          <include name="afterTestMethod"/>
+          <include name="sampleTest"/>
+          <include name="beforeClassMethod"/>
+          <include name="beforeTestMethod"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="afterClassMethod"/>
+        </methods>
+      </class> <!-- appium.BankTrial -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
