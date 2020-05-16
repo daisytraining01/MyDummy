@@ -56,7 +56,7 @@
                     <skipTests>false</skipTests>
                     <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testNG.xml</suiteXmlFile>
+                        <suiteXmlFile>${project.basedir}/testNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
  
